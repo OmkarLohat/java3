@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Employee.java&apos; to &apos;jpa3/src/main/java/com.deloitte.jpa.jpa3&apos;&#x0D;&#x0A;- Original project: &apos;emplib&apos;&#x0D;&#x0A;- Destination element: &apos;jpa3/src/main/java/com.deloitte.jpa.jpa3&apos;&#x0D;&#x0A;- Original element: &apos;com.col.Employee.java&apos;" description="Copy compilation unit" destination="=jpa3/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.deloitte.jpa.jpa3" element1="/src&lt;com.col{Employee.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1719210081635" units="1" version="1.0"/>
+</session>

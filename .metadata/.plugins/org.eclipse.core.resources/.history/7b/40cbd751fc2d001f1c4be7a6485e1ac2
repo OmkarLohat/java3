@@ -1,0 +1,24 @@
+package com.inter;
+
+public class Main {
+	public static void main(String args[])
+	{
+		Rectangle r=new Rectangle(2,4);
+		getDetails(r);
+		
+		Square s=new Square(4);
+		getDetails(s);
+		
+		Circle c=new Circle(3);
+		getDetails(c);
+	}
+	
+	static void getDetails(Shape s)
+	{
+		double area=s.calculateArea();
+		double peri=s.calculatePerimeter();
+		
+		System.out.println("Area: "+area);
+		System.out.println("Perimeter: "+peri);
+	}
+}

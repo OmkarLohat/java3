@@ -1,0 +1,31 @@
+package my.first;
+public class Bank {
+	int AccNo;
+	String name;
+	double balance;
+	public Bank(int AccNo,String name, double balance)
+	{
+		this.AccNo=AccNo;
+		this.name=name;
+		this.balance=balance;
+		
+	}
+	public void deposit(int amount)
+	{
+		this.balance+=amount;
+		System.out.println(amount+" :Deposited Succesfully");
+		
+	}
+	public void withdraw(int amount)
+	{
+		this.balance-=amount;
+		System.out.println(amount+" :Withdraw Succesfully");
+		
+	}
+	public void balance()
+	{
+		
+		System.out.println("Bank Balance is:"+balance);
+		
+	}
+}

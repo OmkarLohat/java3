@@ -1,0 +1,17 @@
+package com.misc;
+
+public class WrapperMain {
+	public static void main(String args[])
+	{
+		int x=320;
+		//Integer ig = new Integer(x); //wrapping or boxing
+		// int a = ig.intValue();
+		
+		Integer ig = x; //autoboxing
+		int a= ig; //auto unboxing
+		
+		System.out.println(a);
+		
+		
+	}
+}

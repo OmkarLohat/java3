@@ -1,0 +1,6 @@
+package my.first;
+class Point {
+	int x;
+	int y;
+	
+}

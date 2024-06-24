@@ -1,0 +1,14 @@
+package com.inher;
+
+public class Main {
+	public static void main(String args[])
+	{
+		Cat c=new Cat("Oggy");
+		Dog d =new Dog("Bob");
+		System.out.println("Sound of Dog: ");
+		d.makeSound();
+		System.out.println("Sound of Cat: ");
+		c.makeSound();
+		
+	}
+}

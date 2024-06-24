@@ -1,0 +1,35 @@
+package lambdaproject;
+
+
+@FunctionalInterface
+public interface OperationMain {
+	int operate(int x, int y);
+}
+
+class Adder implements OperationMain
+{
+
+	@Override
+	public int operate(int x, int y) {
+		// TODO Auto-generated method stub
+		return x+y;
+	}
+	
+}
+
+class multiplier implements OperationMain
+{
+
+	@Override
+	public int operate(int x, int y) {
+		// TODO Auto-generated method stub
+		return x*y;
+	}
+	
+}
+
+class OperationMain1{
+	public static void main(String args[]) {
+		System.out.println("Hello");
+	}
+}

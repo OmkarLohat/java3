@@ -1,0 +1,25 @@
+package com.inter;
+
+public class Square implements Shape {
+	private double side;
+	
+	public Square(double side)
+	{
+		this.side=side;
+		
+	}
+
+	@Override
+	public double calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double calculatePerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+	
+}

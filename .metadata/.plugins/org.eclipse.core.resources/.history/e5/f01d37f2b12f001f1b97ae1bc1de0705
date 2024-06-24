@@ -1,0 +1,30 @@
+package lambdaproject;
+
+
+@FunctionalInterface
+public interface Operation {
+	int operate(int x, int y);
+}
+
+class Adder implements Operation
+{
+
+	@Override
+	public int operate(int x, int y) {
+		// TODO Auto-generated method stub
+		return x+y;
+	}
+	
+}
+
+class multiplier implements Operation
+{
+
+	@Override
+	public int operate(int x, int y) {
+		// TODO Auto-generated method stub
+		return x*y;
+	}
+	
+}
+

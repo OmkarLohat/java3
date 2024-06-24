@@ -1,0 +1,10 @@
+package my.first;
+
+public class Main {
+	public static void main(String args[])
+	{
+		Product p1=new Product(1,"Omkar",1000,101);
+		p1.show();
+		p1.check();
+	}
+}
